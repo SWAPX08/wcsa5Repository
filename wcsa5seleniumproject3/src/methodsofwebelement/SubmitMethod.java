@@ -25,7 +25,7 @@ public class SubmitMethod {
 	     
 	     
 	     driver.get("http://127.0.0.1/login.do;jsessionid=52vf0fnj502ti");
-	     driver.findElement(null)
+	     driver.findElement(null);
 	     
 		
 	}

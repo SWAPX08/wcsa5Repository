@@ -15,7 +15,7 @@ public class SendKeysMethod {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	    driver.findElement(By.name("username")).sendKeys("Admin");
-	   Store = driver.findElement(By.name("password"));
+//	   Store = driver.findElement(By.name("password"));
        
 	}
 
